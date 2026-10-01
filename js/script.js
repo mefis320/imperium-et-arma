@@ -155,3 +155,51 @@ function revealGlossaryTerm() {
         }
     } else reveal();
 }
+
+// Chapters replace the long mobile article with an overview of selectable topics.
+// Desktop keeps every chapter open; mobile choices survive viewport changes.
+document.addEventListener('DOMContentLoaded', () => {
+    const chapters = [...document.querySelectorAll('.reading-chapter')];
+    if (!chapters.length) return;
+    const mobile = matchMedia('(max-width: 767.98px)');
+    const expand = document.querySelector('.reading-expand');
+    const saved = new Map(chapters.map(chapter => [chapter, false]));
+    const updateLabel = () => {
+        const allOpen = chapters.every(chapter => chapter.open);
+        expand.textContent = allOpen ? 'Свернуть все' : 'Раскрыть все';
+        expand.setAttribute('aria-expanded', String(allOpen));
+    };
+    const layout = () => {
+        chapters.forEach(chapter => { chapter.open = mobile.matches ? saved.get(chapter) : true; });
+        updateLabel();
+    };
+    chapters.forEach(chapter => {
+        chapter.querySelector('summary').addEventListener('click', event => {
+            if (!mobile.matches) event.preventDefault();
+        });
+        chapter.addEventListener('toggle', () => {
+            if (mobile.matches) saved.set(chapter, chapter.open);
+            updateLabel();
+        });
+    });
+    expand.addEventListener('click', () => {
+        const open = !chapters.every(chapter => chapter.open);
+        chapters.forEach(chapter => { chapter.open = open; saved.set(chapter, open); });
+        updateLabel();
+    });
+    const revealAnchor = () => {
+        let id;
+        try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+        const target = document.getElementById(id);
+        const chapter = target?.closest('.reading-chapter');
+        if (chapter) {
+            chapter.open = true;
+            saved.set(chapter, true);
+            requestAnimationFrame(() => target.scrollIntoView({block: 'start'}));
+        }
+    };
+    mobile.addEventListener('change', layout);
+    window.addEventListener('hashchange', revealAnchor);
+    layout();
+    revealAnchor();
+});
