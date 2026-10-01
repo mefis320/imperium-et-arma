@@ -3,7 +3,7 @@ body {
 
         linear-gradient(rgba(157, 71, 71, 0.85), rgba(0, 0, 0, 0.9)),
 
-        url('../img/optimized-optimized-background-walp.webp');
+        url('../img/optimized-background-walp.webp');
 
     background-size: cover;
     background-attachment: fixed;
@@ -1135,3 +1135,4 @@ body.menu-open { overflow: hidden; }
 .btn-outline-success { --bs-btn-color: #83d6a3; --bs-btn-border-color: #519e6f; }
 .btn-outline-primary { --bs-btn-color: #8bb9ff; --bs-btn-border-color: #6396df; }
 .btn-outline-danger { --bs-btn-color: #ff969f; --bs-btn-border-color: #c35d67; }
+
