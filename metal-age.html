@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Металлическая эпоха: эволюция оружия, армий и государств от бронзы к железу">
+    <meta name="keywords" content="металлическая эпоха, бронза, железо, армии, фаланга, легионы, доспехи, мечи">
+    <meta name="author" content="Андаев Нариман">
+    <title>Металлическая эпоха и армии — Imperium et Arma</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="vendor/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<button id="scrollTopBtn" type="button" aria-label="Наверх" hidden title="Наверх"><i class="bi bi-chevron-up"></i></button>
+
+<header>
+    <div class="container">
+        
+        <div class="logo">
+            <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+        </div>
+
+        <div class="header-text">
+            <div class="h4">Imperium et Arma</div>
+            <p>История оружия и тактики войн</p>
+        </div>
+
+        <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Открыть меню" aria-controls="mobileNav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Главная</a>
+            <a href="tools-to-weapons.html">Орудия → оружие</a>
+            <a href="stone-age.html">Каменный век</a>
+            <a href="metal-age.html" class="active">Металлы и армии</a>
+            <a href="bows-and-cavalry.html">Луки и конница</a>
+            <a href="early-firearms.html">Ранний огнестрел</a>
+            <a href="glossary.html">Глоссарий</a>
+            <a href="about.html">Об авторе</a>
+        </nav>
+    </div>
+
+</header>
+    <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Навигация по сайту" hidden>
+        <button class="mobile-nav-close" type="button" aria-label="Закрыть меню">×</button>
+        
+        <div class="mobile-nav-header">
+            <div class="mobile-logo">
+                <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+            </div>
+            <div class="mobile-nav-title">
+                <h4>Imperium et Arma</h4>
+                <p>История оружия и тактики войн</p>
+            </div>
+        </div>
+
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="bi bi-house me-2"></i>Главная</a>
+            <a href="tools-to-weapons.html"><i class="bi bi-tools me-2"></i>Орудия → оружие</a>
+            <a href="stone-age.html"><i class="bi bi-rocket me-2"></i>Каменный век</a>
+            <a href="metal-age.html" class="active"><i class="bi bi-gear me-2"></i>Металлы и армии</a>
+            <a href="bows-and-cavalry.html"><i class="bi bi-bullseye me-2"></i>Луки и конница</a>
+            <a href="early-firearms.html"><i class="bi bi-fire me-2"></i>Ранний огнестрел</a>
+            <a href="glossary.html"><i class="bi bi-book me-2"></i>Глоссарий</a>
+            <a href="about.html"><i class="bi bi-person me-2"></i>Об авторе</a>
+        </div>
+    </div>
+
+<main class="container py-4">
+
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold mb-3" style="color: #ff8a8a;">
+        <i class="bi bi-fire me-3"></i>Металлическая эпоха
+    </h1>
+    <p class="lead fs-4" style="color: #cccccc;">
+        Когда оружие стало властью, а армии — основой государств
+    </p>
+    <div class="d-flex flex-wrap justify-content-center align-items-center mt-4">
+        <div class="mx-3 text-center">
+            <i class="bi bi-clock-history display-6 text-warning"></i>
+            <p class="mt-2 small">3000 г. до н.э. - 500 г. н.э.</p>
+        </div>
+        <div class="mx-3">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-3 text-center">
+            <i class="bi bi-shield-check display-6 text-success"></i>
+            <p class="mt-2 small">Профессиональные армии</p>
+        </div>
+        <div class="mx-3">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-3 text-center">
+            <i class="bi bi-bank display-6 text-info"></i>
+            <p class="mt-2 small">Первые империи</p>
+        </div>
+    </div>
+</div>
+
+<article class="content-box">
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-hourglass-split me-2"></i>От камня к металлу: революция власти
+        </h2>
+
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Закат каменного века не был ознаменован громкой катастрофой. Он угас в тусклом свете первых горнов, в густом дыме, пахнущем рудой и древесным углём.
+                </p>
+
+                <p>
+                    Человечество, достигшее потолка в обработке того, что дано природой, сделало следующий, необратимый шаг: оно начало создавать свою собственную природу.
+                </p>
+
+                <div class="alert alert-dark border-warning mt-4">
+                    <h5 class="alert-heading"><i class="bi bi-lightbulb me-2"></i>Фундаментальный сдвиг</h5>
+                    <p class="mb-0">
+                        Из груды невзрачной породы, подчиняясь огню и разуму, рождался материал, который навсегда разделит историю на «до» и «после» — <strong>металл</strong>. Это рождение формулы, в которой оружие перестаёт быть инструментом войны, а становится её причиной, сутью и главным символом.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded">
+                    <i class="bi bi-motherboard display-1 text-danger"></i>
+                    <h5 class="mt-3">Технологический прорыв</h5>
+                    <p class="small">Власть отныне будет отлита в бронзе и выкована из железа</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-thermometer-high me-2"></i>Температура плавления</h5>
+                    <ul class="mb-0">
+                        <li>Медь: ~1085°C</li>
+                        <li>Бронза: ~900°C</li>
+                        <li>Железо: ~1538°C</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-tools me-2"></i>Ключевые технологии</h5>
+                    <ul class="mb-0">
+                        <li>Выплавка</li>
+                        <li>Литьё</li>
+                        <li>Ковка</li>
+                        <li>Закалка</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-shield me-2"></i>Результат</h5>
+                    <p class="mb-0">Профессиональные армии и первые государства</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h3 class="mb-3" style="color: #ff8a8a;">
+            <i class="bi bi-images me-2"></i>Алхимия власти: от руды к клинку
+        </h3>
+        <div class="slider">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-metal-age-forge.webp" alt="Реконструкция древней металлургической мастерской с печью, инструментами и кузнецом за работой" decoding="async" loading="lazy" width="730" height="411">
+                <figcaption>Древняя металлургическая мастерская — место, где рождалась власть</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-forge-2.webp" alt="Древняя плавильная печь с раскалённым металлом внутри" decoding="async" loading="lazy" width="1024" height="1024">
+                <figcaption>Плавильная печь — сердце металлургического производства</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-forge-3.webp" alt="древная кузница и работа кузнецов" decoding="async" loading="lazy" width="730" height="620">
+                <figcaption>Илюстрация древней кузни и работы кузнецов</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-info"><i class="bi bi-droplet me-2"></i>Бронза</h5>
+                    <p>
+                        Первую революцию совершила <a href="glossary.html#bronze" class="enhanced-link">бронза</a> — сплав меди и олова. Это было первое целенаправленное <a href="glossary.html#alloying" class="enhanced-link">легирование</a>, создание материала с заданными свойствами.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-danger"><i class="bi bi-magnet me-2"></i>Железо</h5>
+                    <p>
+                        За ним последовало <a href="glossary.html#iron" class="enhanced-link">железо</a>, сложное в выплавке, но более прочное и доступное. Добыча олова или охрана секрета получения ковкого железа требовали организации и контроля.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 p-4 bg-dark rounded">
+            <h5 class="text-warning"><i class="bi bi-person-gear me-2"></i>Кузнец — жрец технологий</h5>
+            <p>
+                <a href="glossary.html#blacksmith" class="enhanced-link">Кузнец</a> превратился из ремесленника в фигуру, близкую к жрецу. Повелитель стихий: <em>земли</em> (руда), <em>огня</em> (горн), <em>воздуха</em> (мехи), <em>воды</em> (закалка). В мифах кузнецы — всегда боги или полубоги: хромой <a href="glossary.html#hephaestus" class="enhanced-link">Гефест</a> в <a href="glossary.html#olympus" class="enhanced-link">Олимпе</a>, мудрый <a href="glossary.html#wayland" class="enhanced-link">Велунд</a> в сагах.
+            </p>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-shield-plus me-2"></i>Арсенал империй: меч, щит и доспех
+        </h2>
+
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Металл породил принципиально новые виды оружия, не имевшие аналогов в прошлом. Главным символом эпохи стал <strong><a href="glossary.html#sword" class="enhanced-link">меч</a></strong>.
+                </p>
+
+                <p>
+                    В отличие от топора или копья, у меча не было и не могло быть мирного применения. Это был объект, созданный исключительно для ведения боя против себе подобных. Его появление — <em>окончательный разрыв между орудием труда и оружием</em>.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded h-100">
+                    <i class="bi bi-gem display-1 text-warning"></i>
+                    <h5>Ключевое изобретение</h5>
+                    <p>Меч — первый предмет, созданный исключительно для войны</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider mb-4">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-metal-age-warrior.webp" alt="Полное вооружение воина металлической эпохи: шлем, доспехи, щит, меч и копьё" decoding="async" loading="lazy" width="900" height="1600">
+                <figcaption>Воин-профессионал металлической эры: воплощение мощи и статуса</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-warrior-armor-2.webp" alt="Металические доспех древней греции" decoding="async" loading="lazy" width="1080" height="1080">
+                <figcaption>Металические доспех древней Греции — символ военного превосходства</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-sword-copis.webp" alt="Древнегреческий изогнутый меч копис на фоне исторического контекста" decoding="async" loading="lazy" width="229" height="220">
+                <figcaption>Копис — изогнутый меч для сокрушительных рубящих ударов</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-sword-ksifos.webp" alt="Ксифос — древнегреческий прямой обоюдоострый меч" decoding="async" loading="lazy" width="1200" height="800">
+                <figcaption>Ксифос — прямой обоюдоострый меч с характерным листовидным клинком</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-success"><i class="bi bi-shield me-2"></i>Защита: доспехи и щиты</h5>
+                    <p>
+                        Появились <strong>металлические доспехи</strong> — шлемы, панцири (сначала бронзовые, затем кольчуги и латы), щиты с металлическим <a href="glossary.html#umbon" class="enhanced-link">умбоном</a>. Возникла <strong>концепция брони</strong>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-danger"><i class="bi bi-lightning me-2"></i>Новая логика боя</h5>
+                    <p>
+                        Чтобы победить, нужно было не просто ранить, а <em>пробить защиту</em>. Война стала дороже, технологичнее и смертоноснее. Тактика стала сложнее и требовала специальной подготовки.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <blockquote class="mt-4">
+            <i class="bi bi-quote text-danger fs-1"></i>
+            «Бронзовый меч в руке вождя был не просто оружием. Это был сертификат. Доказательство того, что его род обладает доступом к дальним торговым путям за оловом, услугами лучших мастеров и правом силой удерживать это богатство. Меч был слитком бронзы, приведённым в боевую готовность.»
+            <div class="mt-3">
+                <small class="text-muted">— Символическое значение металлического оружия</small>
+            </div>
+        </blockquote>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-people-fill me-2"></i>Рождение воина-профессионала
+        </h2>
+
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Качественное металлическое вооружение было <strong>колоссальной ценностью</strong>. Обладать им мог далеко не каждый. Так из массы соплеменников выделилась <strong>каста профессиональных <a href="glossary.html#warrior" class="enhanced-link">воинов</a></strong>.
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-award me-2"></i>Специализация</h6>
+                            <p class="small mb-0">
+                                Их с детства готовили к одному — войне. Статус, богатство и положение зависели от умения владеть дорогим оружием.
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-shield-fill me-2"></i>Дружина</h6>
+                            <p class="small mb-0">
+                                Эти воины формировали <a href="glossary.html#warband" class="enhanced-link">дружину</a> вождя — постоянное, лично преданное ядро силы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-currency-exchange me-2"></i>Экономика войны</h6>
+                            <p class="small mb-0">
+                                Лояльность обеспечивалась распределением добычи, земель, привилегий. <em>Сила оружия стала основой личной власти правителя</em>.
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-building me-2"></i>Зарождение армии</h6>
+                            <p class="small mb-0">
+                                Это уже не ополчение, а <strong>зародыш <a href="glossary.html#regular-army" class="enhanced-link">регулярной армии</a></strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded h-100">
+                    <i class="bi bi-diagram-3 display-1 text-warning mb-3"></i>
+                    <h5>Социальная иерархия</h5>
+                    <p>
+                        Оружие → Воины-профессионалы → Дружина → Государство
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-strategy me-2"></i>Тактика порядка: от хаоса к системе
+        </h2>
+
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6">
+                <p class="fs-5">
+                    Металлическое оружие и доспехи изменили тактику до неузнаваемости. Роль индивидуальной ярости уменьшилась. На первое место вышла <strong>дисциплина, выучка и слаженность</strong>.
+                </p>
+                <p>
+                    На смену разрозненным стычкам пришли <strong>плотные построения</strong>: месопотамские <a href="glossary.html#phalanx" class="enhanced-link">фаланги</a>, греческие гоплитские строя, римские манипулы и <a href="glossary.html#legion" class="enhanced-link">легионы</a>.
+                </p>
+                <div class="mt-4 p-3 bg-dark rounded">
+                    <h6 class="text-info"><i class="bi bi-lightbulb me-2"></i>Ключевой принцип</h6>
+                    <p class="mb-0">
+                        Победа достигалась не силой одного героя, а неумолимым движением отлаженного механизма. <em>Война стала инженерией</em>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center p-4">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-grid-3x3 display-6 text-warning"></i>
+                                <p class="mt-2 small">Построение</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-arrow-repeat display-6 text-success"></i>
+                                <p class="mt-2 small">Дисциплина</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-people display-6 text-info"></i>
+                                <p class="mt-2 small">Слаженность</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-gear display-6 text-danger"></i>
+                                <p class="mt-2 small">Механизм</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tactical-highlight p-4 bg-dark rounded mb-4">
+            <h4 class="text-warning mb-3"><i class="bi bi-star me-2"></i>Апогей развития: македонская армия</h4>
+            <p>
+                Апогеем развития стала <strong><a href="glossary.html#macedonia" class="enhanced-link">македонская</a> армия <a href="glossary.html#philip-II" class="enhanced-link">Филиппа II</a> и <a href="glossary.html#alexander-the-great" class="enhanced-link">Александра Великого</a></strong> (IV век до н.э.). Она представляла собой смертоносный синтез:
+            </p>
+
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded h-100">
+                        <h6 class="text-info">Усовершенствованная фаланга</h6>
+                        <p><a href="glossary.html#sarissophoroi" class="enhanced-link">Сариссофоры</a> с 5–6-метровыми копьями — <em>«движущаяся крепость»</em>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded h-100">
+                        <h6 class="text-danger">Тяжёлая конница</h6>
+                        <p><a href="glossary.html#hetairoi" class="enhanced-link">«Гетайры»</a> — <em>«таранный ударный кулак»</em>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded h-100">
+                        <h6 class="text-success">Подвижная пехота</h6>
+                        <p>Гибкая связующая сила между фалангой и конницей.</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="mt-3">
+                Тактика Александра — это <strong>«наковальня»</strong> (фаланга) и <strong>«молот»</strong> (конница). Это была <strong>глубинная тактика</strong>, где победа достигалась комбинированным воздействием.
+            </p>
+        </div>
+
+        <div class="slider">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-metal-age-tactics-sarissa.webp" alt="Тактическая схема построения македонской фаланги с сариссами" decoding="async" loading="lazy" width="1024" height="438">
+                <figcaption>Схема македонской фаланги — железная «наковальня» армии Александра</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-tactics-battle-of-issus-scheme.webp" alt="Карта-схема битвы при Иссе, показывающая манёвры македонской армии" decoding="async" loading="lazy" width="640" height="488">
+                <figcaption>Тактика Александра: фаланга сковывает, конница наносит сокрушительный удар</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-tactics-battle-of-issus-art.webp" alt="Картина Битва при Иссе" decoding="async" loading="lazy" width="1600" height="1040">
+                <figcaption>Битва При Иссе</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-tactics-battle-gaugamela-decisive.webp" alt="Карта-схема Битвs при Гавгамелах" decoding="async" loading="lazy" width="640" height="486">
+                <figcaption>Решающее сражение между войсками Александра Македонского и персидского царя Дария III, после которого империя Ахеменидов прекратила своё существование</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-tactics-battle-gaugamela-art.webp" alt="Битва при Гавгемелях decoding="async" loading="lazy" width="1061" height="569">">
+                <figcaption>Битва при Гавгамелах — решающее сражение между войсками Александра Македонского и персидского царя Дария III</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-metal-age-alexander.webp" alt="Александр Македонский decoding="async" loading="lazy" width="1600" height="900">">
+                <figcaption>Александр Македонский</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-bank me-2"></i>Оружие как фундамент государства
+        </h2>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Здесь происходит ключевой синтез: <strong>оружие → армия → государство</strong>. Чтобы содержать, кормить, вооружать и обучать постоянную профессиональную армию, требовалась принципиально новая организация общества.
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-cash-stack me-2"></i>Ресурсы</h6>
+                            <p class="small mb-0">
+                                Возникла <em>система налогов и податей</em>.
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-person-badge me-2"></i>Контроль</h6>
+                            <p class="small mb-0">
+                                Оформился <em>аппарат чиновников и управленцев</em>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-award me-2"></i>Легитимность</h6>
+                            <p class="small mb-0">
+                                Власть стала освящаться <em>религией и законом</em> (меч как символ правосудия).
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-flag me-2"></i>Экспансия</h6>
+                            <p class="small mb-0">
+                                Государство вело <em>завоевательные войны</em> для земель, рабов и дани.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4 p-4 bg-dark rounded">
+                    <h5 class="text-warning"><i class="bi bi-gear me-2"></i>Машина войны</h5>
+                    <p class="mb-0">
+                        <strong>Государство в металлическую эпоху — это, по сути, машина для ведения войны, построенная вокруг ядра из профессиональных воинов.</strong> Меч в ножнах правителя стал зримым воплощением его монополии на насилие — основы государственности.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded h-100">
+                    <i class="bi bi-diagram-3-fill display-1 text-danger mb-3"></i>
+                    <h5>Синтез власти</h5>
+                    <p>
+                        Технология → Оружие → Армия → Государство → Империя
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-stars me-2"></i>Метафизика металла: легенды и наследие
+        </h2>
+
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Металлическое оружие не просто использовалось — <em>ему поклонялись, его одушевляли</em>.
+                </p>
+                <p>
+                    Мечи получали имена (<a href="glossary.html#excalibur" class="enhanced-link">«Экскалибур»</a>, <a href="glossary.html#durandal" class="enhanced-link">«Дюрендаль»</a>), им приписывали магическое происхождение и волю. Они были не инструментами, а <strong>героями саг, наследственными реликвиями царских династий</strong>.
+                </p>
+                <div class="mt-4 p-3 bg-dark rounded">
+                    <h6 class="text-info"><i class="bi bi-magic me-2"></i>Сакрализация технологии</h6>
+                    <p class="mb-0">
+                        Технологическое превосходство (металл) было настолько подавляющим, что воспринималось как сверхъестественная сила. Тот, кто владел секретом этой силы, по праву считался отмеченным богами.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-book display-6 text-warning"></i>
+                                <p class="mt-2 small">Легенды</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-shield display-6 text-success"></i>
+                                <p class="mt-2 small">Реликвии</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-star display-6 text-info"></i>
+                                <p class="mt-2 small">Символы</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-gem display-6 text-danger"></i>
+                                <p class="mt-2 small">Артефакты</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-flag me-2"></i>Заключение эпохи
+        </h2>
+
+        <div class="big-quote">
+            <i class="bi bi-quote display-6 text-danger d-block mb-3"></i>
+            "Металлическая эпоха завершила процесс, начатый в каменном веке. Она материализовала власть, превратив её из авторитета старейшины в нечто осязаемое: в клинок меча, в блеск доспеха, в неумолимую поступь фаланги."
+            <div class="mt-3">
+                <small class="text-muted">— Сущность металлической эры</small>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded">
+                    <h5 class="text-success"><i class="bi bi-check-circle me-2"></i>Достижения</h5>
+                    <ul class="enhanced-list">
+                        <li>Создание профессиональных армий</li>
+                        <li>Развитие сложных тактических систем</li>
+                        <li>Формирование государственных структур</li>
+                        <li>Массовое производство оружия</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded">
+                    <h5 class="text-info"><i class="bi bi-hourglass-top me-2"></i>Ограничения</h5>
+                    <ul class="enhanced-list">
+                        <li>Зависимость от ресурсной базы</li>
+                        <li>Медленность передвижения армий</li>
+                        <li>Уязвимость к дистанционному оружию</li>
+                        <li>Высокая стоимость содержания армии</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-5 bg-dark rounded mt-4">
+            <i class="bi bi-arrow-right-circle display-1 text-warning mb-3"></i>
+            <h4 class="text-warning">Вызов металлическому порядку</h4>
+            <p class="fs-5">
+                Македонский синтез показал, что даже совершенная пехотная система нуждается в мобильности. Но что, если сам принцип ближнего боя можно будет вообще отменить? Что, если поражение будет наноситься с такого расстояния, где никакая броня не имеет значения?
+            </p>
+        </div>
+    </section>
+
+    <section class="text-center p-5 bg-dark rounded">
+        <h3 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-arrow-right-circle me-2"></i>Продолжение пути
+        </h3>
+
+        <div class="alert alert-dark border-warning" role="alert">
+            <h4 class="alert-heading text-warning">
+                <i class="bi bi-bullseye me-2"></i>Готовы к дистанционной революции?
+            </h4>
+            <p class="fs-5">
+                Новые вызовы металлическому порядку уже звучали в свисте стрел и топоте копыт. Узнайте, как дистанция и мобильность не просто дополнили, но и бросили вызов гегемонии металлической пехоты:
+            </p>
+            <hr class="border-warning">
+            <div class="d-flex justify-content-center">
+                <a href="bows-and-cavalry.html" class="btn btn-danger btn-lg">
+                    <i class="bi bi-arrow-right-circle me-2"></i>Перейти к Лукам и коннице
+                </a>
+            </div>
+        </div>
+    </section>
+
+</article>
+
+</main>
+
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5>Imperium et Arma</h5>
+                <p class="mb-1">История оружия и тактики войн</p>
+                <p class="text-muted small mb-0">© 2025 Андаев Нариман (ИСТБ-25-1)</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <div class="mb-2">
+                    
+                    <a href="mailto:mefis320@gmail.com" class="text-white me-4">
+                        <i class="bi bi-envelope me-1"></i>Контакты
+                    </a>
+                    
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B8%D0%B5" target="_blank" rel="noopener noreferrer" class="text-white">
+                        <i class="bi bi-wikipedia me-1"></i>Wikipedia
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="index.html" class="text-white me-3" title="Главная"><i class="bi bi-house"></i></a>
+                    <a href="about.html" class="text-white me-3" title="Об авторе"><i class="bi bi-person"></i></a>
+                    <a href="glossary.html" class="text-white" title="Глоссарий"><i class="bi bi-book"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 pt-3 border-top border-secondary">
+            <div class="col-12 text-center">
+                <p class="small text-muted mb-0">Учебный проект по дисциплине «Введение в веб-технологии»</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="vendor/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Информация об авторе проекта Imperium et Arma — история создания, цели и контактные данные">
+    <meta name="keywords" content="автор, курсовая работа, история оружия, веб-технологии, контакты">
+    <meta name="author" content="Андаев Нариман">
+    <title>Об авторе — Imperium et Arma</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="vendor/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+        </div>
+
+        <div class="header-text">
+            <div class="h4">Imperium et Arma</div>
+            <p>История оружия и тактики войн</p>
+        </div>
+
+        <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Открыть меню" aria-controls="mobileNav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Главная</a>
+            <a href="tools-to-weapons.html">Орудия → оружие</a>
+            <a href="stone-age.html">Каменный век</a>
+            <a href="metal-age.html">Металлы и армии</a>
+            <a href="bows-and-cavalry.html">Луки и конница</a>
+            <a href="early-firearms.html">Ранний огнестрел</a>
+            <a href="glossary.html">Глоссарий</a>
+            <a href="about.html" class="active">Об авторе</a>
+        </nav>
+    </div>
+
+</header>
+    <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Навигация по сайту" hidden>
+        <button class="mobile-nav-close" type="button" aria-label="Закрыть меню">×</button>
+        <div class="mobile-nav-header">
+            <div class="mobile-logo">
+                <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+            </div>
+            <div class="mobile-nav-title">
+                <h4>Imperium et Arma</h4>
+                <p>История оружия и тактики войн</p>
+            </div>
+        </div>
+
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="bi bi-house me-2"></i>Главная</a>
+            <a href="tools-to-weapons.html"><i class="bi bi-tools me-2"></i>Орудия → оружие</a>
+            <a href="stone-age.html"><i class="bi bi-rocket me-2"></i>Каменный век</a>
+            <a href="metal-age.html"><i class="bi bi-gear me-2"></i>Металлы и армии</a>
+            <a href="bows-and-cavalry.html"><i class="bi bi-bullseye me-2"></i>Луки и конница</a>
+            <a href="early-firearms.html"><i class="bi bi-fire me-2"></i>Ранний огнестрел</a>
+            <a href="glossary.html"><i class="bi bi-book me-2"></i>Глоссарий</a>
+            <a href="about.html" class="active"><i class="bi bi-person me-2"></i>Об авторе</a>
+        </div>
+    </div>
+
+<div class="text-center mb-5 mt-4">
+    <h1 class="display-4 fw-bold mb-3" style="color: #ff8a8a;">
+        <i class="bi bi-person-badge me-3"></i>Об авторе проекта
+    </h1>
+    <p class="lead fs-4" style="color: #cccccc;">
+        Создатель исторического ресурса о военной эволюции
+    </p>
+    <div class="d-flex flex-wrap justify-content-center align-items-center mt-4">
+        <div class="mx-2 mb-2 text-center">
+            <i class="bi bi-mortarboard-fill display-6 text-warning"></i>
+            <p class="mt-2 small">Учебный проект</p>
+        </div>
+        <div class="mx-2 mb-2">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-2 mb-2 text-center">
+            <i class="bi bi-code-slash display-6 text-success"></i>
+            <p class="mt-2 small">Веб-технологии</p>
+        </div>
+        <div class="mx-2 mb-2">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-2 mb-2 text-center">
+            <i class="bi bi-shield display-6 text-info"></i>
+            <p class="mt-2 small">Исторический контент</p>
+        </div>
+    </div>
+</div>
+
+<main class="container content-overlay py-5">
+
+    <section class="content-box bg-light rounded-4 p-5 mb-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2 class="display-6 fw-bold mb-4"><i class="bi bi-compass-fill text-danger me-3"></i>О проекте Imperium et Arma</h2>
+                <p class="fs-5 mb-4">
+                    Сайт <strong class="text-danger">«Imperium et Arma»</strong> создан в рамках курсовой работы по дисциплине
+                    «Введение в веб-технологии». Цель проекта — показать эволюцию оружия и военных технологий
+                    от простейших каменных орудий до раннего огнестрельного оружия.
+                </p>
+                <p class="fs-5">
+                    Проект демонстрирует не только исторические знания, но и применение современных веб-технологий
+                    для создания образовательного контента. Материалы основаны на исторических исследованиях и
+                    предназначены для всех, кто интересуется историей, военным делом и развитием технологий.
+                </p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="p-4">
+                    <i class="bi bi-laptop display-1 text-danger mb-3"></i>
+                    <h4>Учебный проект</h4>
+                    <p class="text-muted">Курсовая работа по веб-технологиям</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="text-center display-6 fw-bold mb-5"><i class="bi bi-person-badge-fill text-warning me-2"></i>Контактная информация</h2>
+
+        <div class="row g-4">
+            
+            <div class="col-lg-4">
+                <div class="card epoch-card h-100">
+                    <div class="card-body text-center p-5">
+                        <div class="author-icon mb-4">
+                            <i class="bi bi-person-circle display-1 text-primary"></i>
+                        </div>
+                        <h4 class="card-title">Андаев Нариман</h4>
+                        <p class="text-muted">Студент, разработчик проекта</p>
+                        <div class="mt-4">
+                            <p><i class="bi bi-mortarboard-fill me-2"></i> <strong>Группа:</strong> ИСТБ-25-1</p>
+                            <p><i class="bi bi-calendar-check-fill me-2"></i> <strong>Год создания:</strong> 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card epoch-card h-100">
+                    <div class="card-body p-5">
+                        <h4 class="card-title mb-4"><i class="bi bi-envelope-fill text-success me-2"></i>Контактные данные</h4>
+                        <div class="contact-info">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="bi bi-envelope-paper-fill fs-4 text-danger"></i>
+                                </div>
+                                <div>
+                                    <h6>Электронная почта</h6>
+                                    <a href="mailto:mefis320@gmail.com" class="text-decoration-none">mefis320@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="bi bi-book-fill fs-4 text-warning"></i>
+                                </div>
+                                <div>
+                                    <h6>Дисциплина</h6>
+                                    <p class="mb-0">Введение в веб-технологии</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="contact-icon me-3">
+                                    <i class="bi bi-building-fill fs-4 text-primary"></i>
+                                </div>
+                                <div>
+                                    <h6>Учебное заведение</h6>
+                                    <p class="mb-0">ИРНИТУ: «Иркутский национальный исследовательский технический университет»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card epoch-card h-100">
+                    <div class="card-body p-5">
+                        <h4 class="card-title mb-4"><i class="bi bi-tools text-info me-2"></i>Используемые технологии</h4>
+                        <div class="tech-stack">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="tech-badge bg-danger me-2">HTML5</span>
+                                <span class="tech-badge bg-primary me-2">CSS3</span>
+                                <span class="tech-badge bg-info text-dark me-2">Bootstrap 5</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="tech-badge bg-warning text-dark me-2">JavaScript</span>
+                                <span class="tech-badge bg-secondary me-2">Git</span>
+                                <span class="tech-badge bg-success me-2">VS Code</span>
+                            </div>
+                            <div class="mt-4">
+                                <p class="small text-muted">
+                                    <i class="bi bi-info-circle me-1"></i> Проект использует современные веб-стандарты и адаптивный дизайн
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-box bg-dark text-white rounded-4 p-5 mb-5">
+        <h2 class="display-6 fw-bold mb-4 text-center"><i class="bi bi-bullseye text-warning me-2"></i>Цели проекта</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="text-center p-3">
+                    <div class="goal-icon mb-3">
+                        <i class="bi bi-mortarboard-fill display-4 text-primary"></i>
+                    </div>
+                    <h5>Образовательная</h5>
+                    <p>Создание качественного учебного ресурса по истории военных технологий</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-3">
+                    <div class="goal-icon mb-3">
+                        <i class="bi bi-code-slash display-4 text-success"></i>
+                    </div>
+                    <h5>Техническая</h5>
+                    <p>Демонстрация навыков веб-разработки и работы с современными технологиями</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-3">
+                    <div class="goal-icon mb-3">
+                        <i class="bi bi-share display-4 text-warning"></i>
+                    </div>
+                    <h5>Просветительская</h5>
+                    <p>Популяризация исторических знаний в доступной и визуально привлекательной форме</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5">
+        <div class="big-quote text-center">
+            <i class="bi bi-quote display-6 text-danger d-block mb-3"></i>
+            "История — это не просто хронология событий, а цепочка технологических и социальных революций,
+            где оружие часто становилось главным актором изменений."
+            <div class="mt-3">
+                <small class="text-muted">— Основная идея проекта Imperium et Arma</small>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center py-5">
+        <h2 class="display-6 fw-bold mb-4">Ознакомьтесь с проектом</h2>
+        <p class="fs-5 mb-4">
+            Приглашаем вас изучить все разделы исторического исследования об эволюции оружия
+        </p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="index.html" class="btn btn-danger btn-lg">
+                <i class="bi bi-house me-2"></i>На главную страницу
+            </a>
+            <a href="glossary.html" class="btn btn-outline-secondary btn-lg">
+                <i class="bi bi-book me-2"></i>Открыть глоссарий
+            </a>
+            <a href="tools-to-weapons.html" class="btn btn-outline-dark btn-lg">
+                <i class="bi bi-arrow-right-circle me-2"></i>Начать изучение
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5>Imperium et Arma</h5>
+                <p class="mb-1">История оружия и тактики войн</p>
+                <p class="text-muted small mb-0">© 2025 Андаев Нариман (ИСТБ-25-1)</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <div class="mb-2">
+                    
+                    <a href="mailto:mefis320@gmail.com" class="text-white me-4">
+                        <i class="bi bi-envelope me-1"></i>Контакты
+                    </a>
+                    
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B8%D0%B5" target="_blank" rel="noopener noreferrer" class="text-white">
+                        <i class="bi bi-wikipedia me-1"></i>Wikipedia
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="index.html" class="text-white me-3" title="Главная"><i class="bi bi-house"></i></a>
+                    <a href="about.html" class="text-white me-3" title="Об авторе"><i class="bi bi-person"></i></a>
+                    <a href="glossary.html" class="text-white" title="Глоссарий"><i class="bi bi-book"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 pt-3 border-top border-secondary">
+            <div class="col-12 text-center">
+                <p class="small text-muted mb-0">Учебный проект по дисциплине «Введение в веб-технологии»</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button id="scrollTopBtn" type="button" aria-label="Наверх" hidden title="Наверх"><i class="bi bi-chevron-up"></i></button>
+
+<script src="vendor/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

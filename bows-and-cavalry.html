@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Луки, арбалеты и конница: дистанция против брони, революция в военном искусстве">
+    <meta name="keywords" content="луки, арбалеты, конница, рыцари, лучники, монголы, военная тактика">
+    <meta name="author" content="Андаев Нариман">
+    <title>Луки, арбалеты и конница — Imperium et Arma</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="vendor/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<button id="scrollTopBtn" type="button" aria-label="Наверх" hidden title="Наверх"><i class="bi bi-chevron-up"></i></button>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+        </div>
+
+        <div class="header-text">
+            <div class="h4">Imperium et Arma</div>
+            <p>История оружия и тактики войн</p>
+        </div>
+
+        <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Открыть меню" aria-controls="mobileNav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Главная</a>
+            <a href="tools-to-weapons.html">Орудия → оружие</a>
+            <a href="stone-age.html">Каменный век</a>
+            <a href="metal-age.html">Металлы и армии</a>
+            <a href="bows-and-cavalry.html" class="active">Луки и конница</a>
+            <a href="early-firearms.html">Ранний огнестрел</a>
+            <a href="glossary.html">Глоссарий</a>
+            <a href="about.html">Об авторе</a>
+        </nav>
+    </div>
+
+</header>
+    <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Навигация по сайту" hidden>
+        <button class="mobile-nav-close" type="button" aria-label="Закрыть меню">×</button>
+        <div class="mobile-nav-header">
+            <div class="mobile-logo">
+                <img src="img/optimized-logo.webp" alt="Логотип Imperium et Arma" decoding="async" width="1052" height="1051">
+            </div>
+            <div class="mobile-nav-title">
+                <h4>Imperium et Arma</h4>
+                <p>История оружия и тактики войн</p>
+            </div>
+        </div>
+
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="bi bi-house me-2"></i>Главная</a>
+            <a href="tools-to-weapons.html"><i class="bi bi-tools me-2"></i>Орудия → оружие</a>
+            <a href="stone-age.html"><i class="bi bi-rocket me-2"></i>Каменный век</a>
+            <a href="metal-age.html"><i class="bi bi-gear me-2"></i>Металлы и армии</a>
+            <a href="bows-and-cavalry.html" class="active"><i class="bi bi-bullseye me-2"></i>Луки и конница</a>
+            <a href="early-firearms.html"><i class="bi bi-fire me-2"></i>Ранний огнестрел</a>
+            <a href="glossary.html"><i class="bi bi-book me-2"></i>Глоссарий</a>
+            <a href="about.html"><i class="bi bi-person me-2"></i>Об авторе</a>
+        </div>
+    </div>
+
+<main class="container py-4">
+
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold mb-3" style="color: #ff8a8a;">
+        <i class="bi bi-bullseye me-3"></i>Луки, арбалеты и конница
+    </h1>
+    <p class="lead fs-4" style="color: #cccccc;">
+        Дистанция против брони, скорость против массы
+    </p>
+    <div class="d-flex flex-wrap justify-content-center align-items-center mt-4">
+        <div class="mx-3 text-center">
+            <i class="bi bi-clock-history display-6 text-warning"></i>
+            <p class="mt-2 small">V-XV века</p>
+        </div>
+        <div class="mx-3">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-3 text-center">
+            <i class="bi bi-speedometer display-6 text-success"></i>
+            <p class="mt-2 small">Мобильность</p>
+        </div>
+        <div class="mx-3">
+            <i class="bi bi-arrow-right display-5 text-danger"></i>
+        </div>
+        <div class="mx-3 text-center">
+            <i class="bi bi-bullseye display-6 text-info"></i>
+            <p class="mt-2 small">Дистанция</p>
+        </div>
+    </div>
+</div>
+
+<article class="content-box">
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-hourglass-split me-2"></i>Кризис брони: дистанция против стали
+        </h2>
+
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    После крушения античного мира и наступления Средневековья, военный идеал сместился от дисциплинированной пехотной стены к индивидуальной доблести, закованной в сталь.
+                </p>
+
+                <p>
+                    На поле боя воцарился <strong><a href="glossary.html#knight" class="enhanced-link">рыцарь</a></strong> — фигура, в которой технология металла достигла своего социального апогея. Его сила заключалась в синтезе: <strong>тяжёлый боевой конь, латный доспех, длинное копьё для таранного удара и меч для ближней схватки.</strong>
+                </p>
+
+                <div class="alert alert-dark border-warning mt-4">
+                    <h5 class="alert-heading"><i class="bi bi-lightbulb me-2"></i>Феодальный фундамент</h5>
+                    <p class="mb-0">
+                        Эта система породила <a href="glossary.html#feudal-contract" class="enhanced-link"><strong>феодальный договор</strong></a>: земля (<a href="glossary.html#fief" class="enhanced-link">феод</a>) давала сеньору ресурсы для содержания рыцаря, а рыцарь нёс ему военную службу. <strong>Монополия на тяжёлую конницу стала основой политической власти.</strong>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded">
+                    <i class="bi bi-shield display-1 text-danger"></i>
+                    <h5 class="mt-3">Эпоха рыцарства</h5>
+                    <p class="small">Рыцарь в доспехах — живая крепость и символ несокрушимости</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-shield me-2"></i>Защита</h5>
+                    <ul class="mb-0">
+                        <li>Латный доспех</li>
+                        <li>Кольчуга</li>
+                        <li>Шлем</li>
+                        <li>Щит</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-lightning me-2"></i>Атака</h5>
+                    <ul class="mb-0">
+                        <li>Тяжёлый конь</li>
+                        <li>Копьё для тарана</li>
+                        <li>Меч для ближнего боя</li>
+                        <li>Боевой топор</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-people me-2"></i>Социальный статус</h5>
+                    <p class="mb-0">Аристократия, феодалы, основа власти</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-arrow-up-right me-2"></i>Трещина в латах: длинный лук
+        </h2>
+
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    Первые вызовы рыцарской гегемонии пришли не извне, а изнутри самой европейской тактики — <strong>массированное использование пеших <a href="glossary.html#archers" class="enhanced-link">лучников</a>, вооружённых <a href="glossary.html#longbow" class="enhanced-link">длинным луком</a></strong>.
+                </p>
+
+                <p>
+                    Англичане отказались от идеи рыцарской сшибки как главного события битвы. Вместо этого они строили оборону вокруг дисциплинированных лучников-<a href="glossary.html#yeomen" class="enhanced-link">йоменов</a>. Задачей был не прицельный выстрел, а <strong>плотный «дождь стрел»</strong>, обрушивавшийся на наступающие порядки врага.
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-graph-up me-2"></i>Эффективность</h6>
+                            <p class="small mb-0">
+                                На дистанции 200–300 метров стальной наконечник мог найти уязвимость в доспехе, убить коня, внести хаос в строй.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-person-badge me-2"></i>Социальный сдвиг</h6>
+                            <p class="small mb-0">
+                                Лучник требовал многолетней тренировки. Создавалась профессионально-народная военная каста.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded h-100">
+                    <i class="bi bi-arrow-up-right-square display-1 text-warning"></i>
+                    <h5>Тактический переворот</h5>
+                    <p>Победы при <a href="glossary.html#battle-of-crécy" class="enhanced-link">Креси (1346)</a> и <a href="glossary.html#battle-of-agincourt" class="enhanced-link">Азенкуре (1415)</a> доказали: массовые лучники могут остановить рыцарскую конницу</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider mb-4">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-bows-and-cavalry-archers-2.webp" alt="Строй английских лучников-йоменов в битве, готовящихся к залпу" decoding="async" loading="lazy" width="1280" height="627">
+                <figcaption>Английские лучники-йомены: массовый залп как ответ рыцарской гегемонии</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-bows-and-cavalry-archers-vs-cavalry.webp" alt="Реконструкция битвы при Креси, где лучники противостоят рыцарской коннице" decoding="async" loading="lazy" width="752" height="440">
+                <figcaption>Битва при Креси (1346): тактический триумф дисциплины и дистанции над броней</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-bows-and-cavalry-pikemen.webp" alt="Плотный строй швейцарских пикинёров с длинными копьями" decoding="async" loading="lazy" width="1040" height="641">
+                <figcaption>Швейцарские пикинёры: возрождение пехоты как главной силы на поле боя</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+
+        <blockquote class="mt-4">
+            <i class="bi bi-quote text-danger fs-1"></i>
+            «Стрела длинного лука не всегда убивала рыцаря. Но она убивала его миф. Она доказывала, что его стальная броня — не магический щит, а лишь очень дорогой и тяжёлый кусок металла, который можно преодолеть массой, дисциплиной и правильной дистанцией.»
+            <div class="mt-3">
+                <small class="text-muted">— Психологическое воздействие дистанционного оружия</small>
+            </div>
+        </blockquote>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-gear-wide me-2"></i>Уравнитель: арбалет
+        </h2>
+
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6">
+                <p class="fs-5">
+                    Если длинный лук был эволюцией, то <a href="glossary.html#crossbow" class="enhanced-link"><strong>арбалет</strong></a> стал революцией, направленной прямо в сердце рыцарского идеала.
+                </p>
+                <p>
+                    Его принцип был гениально прост: энергия для выстрела накапливалась не мышцами стрелка, а <strong>механическим устройством</strong> — рычагом, козьей ногой или воротом.
+                </p>
+                <div class="mt-4 p-3 bg-dark rounded">
+                    <h6 class="text-info"><i class="bi bi-lightbulb me-2"></i>Технологическое превосходство</h6>
+                    <p class="mb-0">
+                        Арбалетный болт был короче и толще стрелы. Он летел с чудовищной силой, способной <strong>пробить рыцарский доспех на реальной дистанции боя.</strong>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center p-4">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-clock display-6 text-warning"></i>
+                                <p class="mt-2 small">Обучение: недели</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-shield-x display-6 text-success"></i>
+                                <p class="mt-2 small">Пробивает доспех</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-person-plus display-6 text-info"></i>
+                                <p class="mt-2 small">Демократизация</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-dark rounded">
+                                <i class="bi bi-file-earmark-x display-6 text-danger"></i>
+                                <p class="mt-2 small">Церковный запрет</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider mb-4">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-bows-and-cavalry-crossbow.webp" alt="Средневековый арбалет с механическим взводным воротом" decoding="async" loading="lazy" width="1600" height="696">
+                <figcaption>Средневековый арбалет: механическая сила, не требующая многолетней подготовки</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-bows-and-cavalry-crossbow-vs-knights.webp" alt="Арбалетный болт пробивает пластину латного доспеха в испытании" decoding="async" loading="lazy" width="1024" height="1536">
+                <figcaption>Демонстрация пробивной силы: арбалет против рыцарской брони</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-crossbow-mini.webp" alt="Средневековая миниатюра с осадой и арбалетчиками на стенах" decoding="async" loading="lazy" width="1600" height="1165">
+                <figcaption>Арбалетчики в действии: новая реальность средневековой войны</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-danger"><i class="bi bi-people me-2"></i>Социальное землетрясение</h5>
+                    <p>
+                        Чтобы стать смертоносным арбалетчиком, требовались не годы, а <strong>недели.</strong> Теперь любой пехотинец-ополченец мог получить оружие, позволяющее убить благородного рыцаря.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-shield-exclamation me-2"></i>Ответ элиты</h5>
+                    <p>
+                        Католическая церковь попыталась <a href="glossary.html#cancellation-crossbow" class="enhanced-link"><strong>запретить арбалет</strong></a> как «смертоносное и Богу ненавистное оружие». Это была первая попытка запретить технологию, угрожающую монополии на насилие.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-speedometer me-2"></i>Абсолютный синтез: монгольские конные лучники
+        </h2>
+
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <p class="fs-5">
+                    В бескрайних степях Евразии был достигнут иной, пугающе эффективный идеал. <strong><a href="glossary.html#mongolian-horse-archer" class="enhanced-link">Монгольский конный лучник</a></strong> стал воплощением финального синтеза: <strong>абсолютная мобильность + совершенное дистанционное оружие.</strong>
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-bullseye me-2"></i>Оружие</h6>
+                            <p class="small mb-0">
+                                <a href="glossary.html#composite-bow" class="enhanced-link">Композитный лук</a> из рога, дерева и жил, не уступавший в мощности длинному луку, но пригодный для стрельбы с коня.
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-arrow-left-right me-2"></i>Тактика</h6>
+                            <p class="small mb-0">
+                                <a href="glossary.html#mongolian-tactic" class="enhanced-link">«Монгольский отход»</a> — притворное бегство, заманивание врага в засаду.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-dark rounded mb-3">
+                            <h6 class="text-success"><i class="bi bi-speedometer2 me-2"></i>Мобильность</h6>
+                            <p class="small mb-0">
+                                Выносливые степные лошади, врождённое мастерство верховой езды и стрельбы на полном скаку.
+                            </p>
+                        </div>
+                        <div class="p-3 bg-dark rounded">
+                            <h6 class="text-success"><i class="bi bi-diagram-3 me-2"></i>Организация</h6>
+                            <p class="small mb-0">
+                                <a href="glossary.html#tumen" class="enhanced-link">Тумены</a> — подвижные соединения, эффективная логистика и разведка.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center p-4 bg-dark rounded h-100">
+                    <i class="bi bi-lightning-charge display-1 text-danger mb-3"></i>
+                    <h5>Империя скорости</h5>
+                    <p>Победа логистики, разведки и дистанционного воздействия над грубой силой</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider mb-4">
+            <button class="slider-btn prev" type="button" aria-label="Предыдущее изображение">‹</button>
+            <figure class="slide active">
+                <img src="img/optimized-bows-and-cavalry-mongolian-archer.webp" alt="Монгольский конный лучник стреляет из лука на полном скаку" decoding="async" loading="lazy" width="700" height="450">
+                <figcaption>Монгольский конный лучник: идеальный синтез скорости и поражающей мощи</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-bows-and-cavalry-mongolians.webp" alt="Схема тактики «монгольского отхода» с заманиванием в ловушку" decoding="async" loading="lazy" width="800" height="584">
+                <figcaption>Тактика «монгольского отхода»: классический пример военной хитрости степных народов</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="img/optimized-bows-and-cavalry-mongolian-archer-2.webp" alt="Традиционный монгольский композитный лук из рога, дерева и сухожилий" decoding="async" loading="lazy" width="1200" height="630">
+                <figcaption>Композитный лук монголов: сложная технология для простой цели — побеждать на расстоянии</figcaption>
+            </figure>
+            <button class="slider-btn next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-exclamation-triangle me-2"></i>Кризис элиты и дорога к пороху
+        </h2>
+
+        <div class="big-quote">
+            <i class="bi bi-quote display-6 text-danger d-block mb-3"></i>
+            "Эпоха луков, арбалетов и конницы обозначила глубокий кризис прежней модели военного доминирования. Технологическое превосходство начало побеждать наследуемый статус."
+            <div class="mt-3">
+                <small class="text-muted">— Исторический перелом</small>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-warning"><i class="bi bi-arrow-up-right me-2"></i>Длинный лук</h5>
+                    <ul class="enhanced-list">
+                        <li>Вернул значимость массовой пехоте</li>
+                        <li>Показал, что элитная конница не всесильна</li>
+                        <li>Требовал многолетнего профессионального навыка</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-danger"><i class="bi bi-gear-wide me-2"></i>Арбалет</h5>
+                    <ul class="enhanced-list">
+                        <li>Демократизировал смертоносную силу</li>
+                        <li>Технология за недели делала простолюдина угрозой аристократу</li>
+                        <li>Подрыв основ феодального общества</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-dark rounded h-100">
+                    <h5 class="text-success"><i class="bi bi-speedometer me-2"></i>Конные лучники</h5>
+                    <ul class="enhanced-list">
+                        <li>Показали будущее за мобильностью и дистанционным боем</li>
+                        <li>Победили логистикой и разведкой, а не грубой силой</li>
+                        <li>Сетевая организация против статичной силы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-5 bg-dark rounded mt-4">
+            <i class="bi bi-arrow-right-circle display-1 text-warning mb-3"></i>
+            <h4 class="text-warning">Мускульный предел</h4>
+            <p class="fs-5">
+                Однако и лук, и арбалет упирались в один и тот же предел — <strong>мускульную силу человека</strong>. Для следующего, тектонического сдвига, который окончательно снимет рыцарские доспехи с исторической сцены, требовался принципиально иной источник энергии.
+            </p>
+        </div>
+    </section>
+
+    <section class="text-center p-5 bg-dark rounded">
+        <h3 class="mb-4" style="color: #ff8a8a;">
+            <i class="bi bi-arrow-right-circle me-2"></i>Продолжение пути
+        </h3>
+
+        <div class="alert alert-dark border-warning" role="alert">
+            <h4 class="alert-heading text-warning">
+                <i class="bi bi-fire me-2"></i>Готовы к огненной революции?
+            </h4>
+            <p class="fs-5">
+                Новый источник энергии дремал в смеси селитры, серы и угля. Его пробуждение ознаменует конец одной эры и начало самой огненной главы в истории конфликта — эры, где решающее слово будет принадлежать не мускулам, а химической формуле и искре.
+            </p>
+            <hr class="border-warning">
+            <div class="d-flex justify-content-center">
+                <a href="early-firearms.html" class="btn btn-danger btn-lg">
+                    <i class="bi bi-arrow-right-circle me-2"></i>Перейти к Раннему огнестрелу
+                </a>
+            </div>
+        </div>
+    </section>
+
+</article>
+
+</main>
+
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5>Imperium et Arma</h5>
+                <p class="mb-1">История оружия и тактики войн</p>
+                <p class="text-muted small mb-0">© 2025 Андаев Нариман (ИСТБ-25-1)</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <div class="mb-2">
+                    
+                    <a href="mailto:mefis320@gmail.com" class="text-white me-4">
+                        <i class="bi bi-envelope me-1"></i>Контакты
+                    </a>
+                    
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B8%D0%B5" target="_blank" rel="noopener noreferrer" class="text-white">
+                        <i class="bi bi-wikipedia me-1"></i>Wikipedia
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="index.html" class="text-white me-3" title="Главная"><i class="bi bi-house"></i></a>
+                    <a href="about.html" class="text-white me-3" title="Об авторе"><i class="bi bi-person"></i></a>
+                    <a href="glossary.html" class="text-white" title="Глоссарий"><i class="bi bi-book"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 pt-3 border-top border-secondary">
+            <div class="col-12 text-center">
+                <p class="small text-muted mb-0">Учебный проект по дисциплине «Введение в веб-технологии»</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="vendor/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
